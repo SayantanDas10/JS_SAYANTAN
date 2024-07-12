@@ -28,3 +28,9 @@ num1 = num2 = num3 = 2 + 2
 let gameCounter = 100
 ++gameCounter;
 console.log(gameCounter);
+
+
+console.log("1"+2);//OP12
+console.log("1"+2+2);// OP122 because first string then values
+console.log(1+2+"2");//op32 values then string
+console.log(+true);//OP1
