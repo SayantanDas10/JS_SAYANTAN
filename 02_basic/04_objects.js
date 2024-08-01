@@ -21,3 +21,32 @@ const obj2 = {3: "a", 4: "b"}
 //const obj3 = Object.assign({},obj1, obj2);
 const obj3 = {...obj1, ...obj2}
 console.log(obj3);
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Sayantan"
+}
+//course.courseInstructor
+const{courseInstructor:it} = course//destructuring...
+//console.log(courseInstructor);
+console.log(it);
+
+const navbar= ({company}) =>{
+
+}
+navbar(company="hitesh")
+
+
+
+//APIS
+// {
+//     "name" : "Sayantan",
+//     "coursename" : "hindi",
+//     "price" : "free"
+// }
+[
+    {},
+    {},
+    {}
+]
